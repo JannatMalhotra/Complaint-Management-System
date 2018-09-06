@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <asp:Panel ID="Panel1" runat="server" BackColor="Black" BorderColor="Black">
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="58px" ImageUrl="~/Images/Logo.png" Width="154px" />
+                </asp:Panel>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">&copy -Made By Jannat Malhotra</div>
+    </form>
+</body>
+</html>
